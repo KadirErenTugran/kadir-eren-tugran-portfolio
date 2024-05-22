@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import HomeScreen from './screens/HomeScreen';
 export function App() {
   return (
-    <div >
-      <Navbar/>
+    <div className='overflow-x-hidden overflow-y-hidden'>
+        <HomeScreen/>
     </div>
   );
 }
